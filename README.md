@@ -16,6 +16,7 @@ Simply do your best to complete as many of the requirements as possible within t
 
 ## Project Description
 
+For this code challenge, you will be using one of the most common QA tools in existence, the Selenium IDE. The goal for this challenge is to create a website test suite that is as complete as possible in the time allotted, your should shoot for 100% feature coverage in your test suite.
 
 ## Instructions
 
@@ -41,8 +42,8 @@ For this challenge you will be using the Selenium IDE to test the UI of a websit
 
 _Where the fun really beings_
 
-- [ ] 
-
-### Features
-
-- [ ] 
+- [ ] Create a new Selenium project
+- [ ] Set the project root URL to https://bluenotetherapeutics.com/
+- [ ] Using your knowledge of how to test a website and its features, build a test suite that fully tests the Blue Note Therapeutics website and its associated features
+- [ ] Save and commit your test suite frequently so as not to lose your work
+- [ ] Once complete, verify you have committed all changes to your test suite to the repo
