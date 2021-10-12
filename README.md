@@ -2,6 +2,8 @@
 
 __Selenium Skills Assessment__
 
+Repo Location: https://github.com/tim-lynn-clark/codechallenge-selenium
+
 ## Summary
 
 This Selenium code challenge provides each candidate a `consistent` and `fair` opportunity to demonstrate the skills they have developed and practiced over their years of software engineering.
