@@ -1,0 +1,1954 @@
+{
+  "id": "3c3bee12-cb12-4093-b492-1e0f1cdec535",
+  "version": "2.0",
+  "name": "BlueNote-Tests-Lucie",
+  "url": "https://bluenotetherapeutics.com",
+  "tests": [{
+    "id": "b22c88a4-ad43-44e6-9cc0-14d6b32ae1a7",
+    "name": "Svg image – Buttons - About us: When clicked, ‘About’ page displays correct title",
+    "commands": [{
+      "id": "965ba684-354d-42ba-a59b-e68cb856c47a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff51f9ad-accd-41f0-a0d2-1977264284f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee7eaa8f-a41e-4155-a959-09e874427b7a",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bcd1cd6-c000-4048-b8c1-5fbbffc20971",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "aboutButton"
+    }, {
+      "id": "cc3e1eaa-3946-47f6-89e7-c69d4527ffe3",
+      "comment": "",
+      "command": "echo",
+      "target": "${aboutButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84e88ebf-3645-43e6-98e7-5346b4fa6fea",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [],
+      "value": "ABOUT US"
+    }, {
+      "id": "922528e7-2d13-4925-879c-5112042ff8b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c19e51-aa59-4106-947f-ddef9d9ba8b9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Creating a New Way Forward",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cb6831c-42c2-41b1-93ad-a6a9b4365f85",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "faf6eae5-e72d-46c1-b123-a80c2fba3fe8",
+    "name": "Svg image – Buttons - News: ‘When clicked, 'News’ page displays correct title",
+    "commands": [{
+      "id": "a3de7826-0b5c-4835-8452-582eb4e4b0f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c56d5c5-2ca7-450a-b17e-eb18469c6c07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f204c395-d6b6-4637-8fd0-067f187a307b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd001a93-a3fe-4037-a4c3-2429aee667e4",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "newsButton"
+    }, {
+      "id": "e5bc5fe9-7ba2-4b2a-b7ed-1969aec51230",
+      "comment": "",
+      "command": "echo",
+      "target": "${newsButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd5e5d11-070f-4e99-b8a6-f2d8ba7e548d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [],
+      "value": "NEWS"
+    }, {
+      "id": "654c8bd6-9500-4028-9e25-6259f682f7f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(3) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ac9acda-66e4-407f-83df-6728e247bf8e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | News",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b34993ba-de1f-4f44-bdb9-86c92f25f20b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0c1bffbd-7e27-48f7-bbb2-b5d8432544dd",
+    "name": "Svg image – Buttons - Careers: When clicked, ‘Jobs’ page displays correct title",
+    "commands": [{
+      "id": "1a5cc8fe-5836-4733-9386-fbd914b3f1d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eda82158-1000-4bef-9a6b-a1000872b6a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dcbd0b3-fb23-46b6-9416-f611244cedf1",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "jobsButton"
+    }, {
+      "id": "c87520a8-f8eb-4ae2-a088-015f75ba052a",
+      "comment": "",
+      "command": "echo",
+      "target": "${jobsButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fec0e95f-7399-43eb-8484-bae759d3386a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [],
+      "value": "CAREERS"
+    }, {
+      "id": "419c077c-33a1-4bea-b50a-e14c9b02b947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(4) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2993a4-7b96-4e49-a076-61fd03a21d27",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Jobs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a70e86a7-3f6c-4da9-a7eb-d36f6337a26f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2f6fd15b-76a4-4749-a84e-bb08de9f64ea",
+    "name": "Svg image – Buttons - Blog: When clicked, Post’ page displays correct title",
+    "commands": [{
+      "id": "a62b01f7-74ce-4f17-be18-31c66fb9d5ae",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d4fcc86-54c7-4bb8-8d77-3f68c9edb4e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34cae38e-a12a-4f58-bc01-1c702037a0ab",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "postButton"
+    }, {
+      "id": "6a71989b-f94a-4578-aef1-a1965da74de5",
+      "comment": "",
+      "command": "echo",
+      "target": "${jpostButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90ad78a3-55fd-4a66-b28e-6b1b443cfd03",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [],
+      "value": "BLOG"
+    }, {
+      "id": "a46aa789-f1d5-4a6c-867e-0ec0fad25cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(5) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/post')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ebfce99-1eb9-4665-945b-0ec5f920420f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Posts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "209bcddd-e819-4f2f-9766-3aacf8b0532a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3bfa21ce-6ae9-4bff-a935-14dcbbb18cc1",
+    "name": "Blue Note Therapeutics logo: When clicked, ‘Main’ page displays correct title",
+    "commands": [{
+      "id": "c6849849-ca99-4659-bfab-d1bacf1893d9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a267f6dc-b856-4fc5-9da7-af14ff61a0b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c86de42b-4b95-46d4-86c2-484e21e5cfbf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.pa3 > .br0",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93cef441-be61-4927-bf32-5ab049e3fa17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pa3 > .br0",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "453aee2c-cb7b-4728-8cd5-2ea21e4d7e1e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Helping Cancer Patients Live Better",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaa8c8f9-931f-440f-a60e-3e1ee0c2431a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4c338413-2c2c-4318-b7d8-d3b5dd9d1130",
+    "name": "Svg image – Buttons links: Click each button and verify each page has correct title - all tests",
+    "commands": [{
+      "id": "951d210d-8acb-4048-a077-195c5400ee21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "954d4dae-b79f-4fc3-9cdf-a49036748458",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "096bde19-dc02-4c26-b230-4cbd915d6302",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "whyButton"
+    }, {
+      "id": "7b3e3d80-1769-4680-85a7-fb0d42369386",
+      "comment": "",
+      "command": "echo",
+      "target": "${whyButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ebc5448-2e15-4107-917e-605bb5704dc5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [],
+      "value": "CANCER AND STRESS"
+    }, {
+      "id": "ddbed5d0-1679-429e-b340-c1241f2a32b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca31c520-aaeb-4b32-ab4a-6ff49a2a1f78",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Cancer-Related Distress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aff8a664-b9d2-4946-bc7b-f1393384a71f",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc59a0f6-481b-4da1-a398-07695413221a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "aboutButton"
+    }, {
+      "id": "09a535e0-9d1e-4ef3-bc53-a137262cd383",
+      "comment": "",
+      "command": "echo",
+      "target": "${aboutButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "764ea914-eed4-4d74-a8fc-62216a21e22f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [],
+      "value": "ABOUT US"
+    }, {
+      "id": "ee13730a-61d6-4f0f-81d1-903696893f0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb200a1a-5a67-4cb8-9fdb-b522bea9a8e3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Creating a New Way Forward",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e88abc9c-f186-44fa-b923-f4137822067c",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c702bd4-135d-45d5-8a45-fff2f604d5e2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "newsButton"
+    }, {
+      "id": "0e7acc3a-1e1f-4cc9-8ee6-090465975b73",
+      "comment": "",
+      "command": "echo",
+      "target": "${newsButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8944c47a-367c-4cc0-b1b3-2949e02dc733",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [],
+      "value": "NEWS"
+    }, {
+      "id": "1fbc4cec-97f5-414b-aaf9-61a317e49fe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(3) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "359e7b8f-c516-4359-8433-32b1bea8bd4c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | News",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c46d9f7-dd8a-4bc0-b20f-22a8414e794d",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a364b927-2bfb-4a5d-b069-259fbf60f92f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "jobsButton"
+    }, {
+      "id": "5de95c6f-09ce-4552-a135-ab3725d1fa49",
+      "comment": "",
+      "command": "echo",
+      "target": "${jobsButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b28034af-7c7c-47e0-9b6b-62236338049c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [],
+      "value": "CAREERS"
+    }, {
+      "id": "eef7c2fe-ae83-44ac-98ba-525d321dec95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(4) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "677c82bb-6c0a-46bb-986b-633403634323",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Jobs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b7f753c-b690-49de-b607-d5163357c442",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8051941-b4c9-458d-aa8d-e101ce0e4dc7",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "postButton"
+    }, {
+      "id": "920a6573-11d7-4082-8db6-cbac6d155811",
+      "comment": "",
+      "command": "echo",
+      "target": "${jpostButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ec51aed-91eb-4021-af3f-3b8b7b629d24",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [],
+      "value": "BLOG"
+    }, {
+      "id": "54034382-9d84-42e3-9bfe-95007be501dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(5) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/post')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa43a14-cb3d-46e6-b82e-1815c89254d9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Posts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6456fd0-112a-4740-a658-304f80b3f7fd",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ff68445-e1e8-4d08-8d3d-d836f173dfad",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.pa3 > .br0",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c8d8db8-854b-469b-bbe9-6c22696424e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pa3 > .br0",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0bca009-66c9-4b71-944c-3e8a7207ed5d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Helping Cancer Patients Live Better",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f7ccd3-f110-4a62-b853-9e688460d274",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a524ddbe-45ad-4e45-a265-be0630f9b923",
+    "name": "Svg image – Buttons - Cancer and Stress: When clicked, ‘Why’ page displays correct title",
+    "commands": [{
+      "id": "fdb1c0d4-c412-49e5-a770-7363fb3696e0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eacd409-7c36-4cd5-940f-10409666db84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1478x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ceba5c3-f391-4853-947f-81abb4421610",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [
+        ["css=.ph1:nth-child(1) > .pa3", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancer and Stress')]", "xpath:link"],
+        ["xpath=//div[@id='nav-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/why')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "whyButton"
+    }, {
+      "id": "971a97f1-ccaf-4d20-bdb4-5f1a18122a40",
+      "comment": "",
+      "command": "echo",
+      "target": "${whyButton}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fdf5f05-dfbb-47e7-99ca-59dca6308af1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [],
+      "value": "CANCER AND STRESS"
+    }, {
+      "id": "2c216c38-c929-4830-9ca4-dc411264d939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph1:nth-child(1) > .pa3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2ab96c8-c6c1-4ae1-804b-5f63694ae2ac",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Cancer-Related Distress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d93eb22a-ca45-4148-8c0d-10e51a414bbe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c2e602e-d384-4392-8c24-91d128cc2807",
+    "name": "Kebab links - all tests",
+    "commands": [{
+      "id": "5938ad70-345a-488c-8874-1ff284b59e68",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "138708ec-f5ee-4790-b2b1-5886b8395ef9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5780b65-111b-485b-87c3-4c632f861b58",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "7d760098-a56a-4655-ad5d-770bd0531198",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc5e27f4-976c-4768-9614-d2c43d6fd701",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.mw2",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5993308b-71e0-4db8-b9ba-42d88af40d7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw2",
+      "targets": [
+        ["css=.mw2", "css:finder"],
+        ["xpath=//img[@alt='Blue Note logo']", "xpath:img"],
+        ["xpath=//div[@id='mobile-menu']/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e62bd34b-c79a-4f3a-81e8-84e18a71d393",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Helping Cancer Patients Live Better",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65e848fc-bb11-4c05-bcc1-8e37dc5732af",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c506a2-4578-47b7-a182-69b4dfaf4c5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a774f906-d077-487c-aae2-3b6a8a843ed5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "404fda77-f42c-4908-8f21-3257787ee5ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "CANCER AND STRESS"
+    }, {
+      "id": "eab4c64a-c3d1-4b96-b6f4-787bff30c1d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f4c1daf-5d43-41d5-93fb-90529837bbc2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Cancer-Related Distress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3fac3a3-7324-4820-a729-c69a1686b16c",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7592186f-2895-4118-aeac-76319c51577d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca81c9a-94e5-4c3f-9d9e-d9457b2e1b55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e39d72-68b3-4c1b-85ac-ab13538d875f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "ABOUT US"
+    }, {
+      "id": "2804a372-01e4-4114-a4a4-fc54053a6b29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ceb2b6-25cb-480b-8d3f-d38a5ec3070c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Creating a New Way Forward",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "585c1ca4-855b-472a-b18c-2582ff86fbd7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f48de207-4114-4124-a704-0e5481cfcd38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=.f4:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99bf5566-aabf-414c-ac51-3b7ce1b053c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae33db46-35d4-48f9-a0de-723be38f0526",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "NEWS"
+    }, {
+      "id": "f3f798aa-7c02-4ca6-a664-2089ceaaa5ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(3) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'About Us')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d6ea9b-e77d-4f99-acfa-aeab3281f7d2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | News",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbf9ae63-b3a0-4ca6-ba0b-21dc6fd054d7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e16256c-82dd-4f28-9246-67c2e986ff84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=.f4:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b6e9eb-3801-407d-bd10-92807350e1d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ee0bf1-5133-4f7d-b6dc-0c1b8faf29b0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "CAREERS"
+    }, {
+      "id": "fda4eb25-e63a-4419-a162-6613a8212867",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(4) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/news')])[2]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5035403e-d780-45f9-a846-02bf7287d1fa",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Jobs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "880362cd-fe8e-4225-9040-b6826a8fc981",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eea9a2b3-2382-4802-bc8c-9e62353137fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=.ph2", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58eaadbc-e7b0-49d2-8e00-217d60c17f74",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec5d37d-8901-41fe-9ef5-ffffe8063aa4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "BLOG"
+    }, {
+      "id": "adbed7b0-c203-4736-a9ae-bb06a2e29a14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(5) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Careers')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/jobs')])[2]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d36065d-4c40-4500-95c2-2f56cb2a61aa",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Posts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f945b528-684c-493d-9b0d-8c0b9e74c867",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f27ff593-b367-4385-9e44-c8510808c913",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=.ph2", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d4abc0-582d-4fcc-9319-a5f69f339840",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c31cb6-0f13-4997-92fc-0da3305efd2e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": "×"
+    }, {
+      "id": "fdb4701a-c5ef-4eb6-9325-02ac46793d27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5323d6f8-cb33-4935-9dde-56e0cf46ca1b",
+      "comment": "",
+      "command": "//Should verify which page should display",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e41f0353-abeb-46fa-a769-be60f11e1bbe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cdf2ae52-496c-4c51-b5e8-00a54b34a39f",
+    "name": "Kebab - Blue Note logo: When clicked, ‘Main’ page displays correct title",
+    "commands": [{
+      "id": "07af98b7-9535-41b0-8fd2-e26917b60fb8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "742d66ea-6325-459b-aaee-2251de7fcdc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d89e19-4254-4123-b39a-34dab85d96ec",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "b751b628-aa85-455e-9ca9-2b7eca2de4dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c52ee7a6-0c87-4b40-abf4-558074df717f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.mw2",
+      "targets": [
+        ["css=.pa3 > .br0", "css:finder"],
+        ["xpath=//img[@alt='Blue Note Therapeutics']", "xpath:img"],
+        ["xpath=//nav[@id='nav-main']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6b7f78-27fb-4371-98f7-7a738019cb7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw2",
+      "targets": [
+        ["css=.mw2", "css:finder"],
+        ["xpath=//img[@alt='Blue Note logo']", "xpath:img"],
+        ["xpath=//div[@id='mobile-menu']/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c121de71-45c9-4a3e-a66a-2508b9c97747",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Helping Cancer Patients Live Better",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c6ed8c0-8499-40ab-9729-bb8a65f55442",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "100b6386-dd4c-452c-bc5c-de36629fc8c3",
+    "name": "Kebab – Buttons - Cancer and Stress: When clicked, ‘Why’ page displays correct title",
+    "commands": [{
+      "id": "bb39ebb6-b1a2-4b2a-aaea-029d8b33329b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9be75f70-1c7c-4584-bf19-7b807fd95d97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8006a618-8c1e-4ccf-a2f2-78331a17e539",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "921ab246-09d6-4cbb-881f-eb94083b9edc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c35c90fd-01ed-4023-abfb-14a5b74cba0d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0631c4b2-79c7-4348-98e2-821349bf22f8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "CANCER AND STRESS"
+    }, {
+      "id": "8028ef6e-81e0-4dff-8ba3-16db12359934",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(2) > .pa3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0e6d1a3-53f6-49fc-a77d-c2fb3c6fcd7f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Cancer-Related Distress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82839841-5077-40ab-b845-d6ec512c0b57",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b0f039e1-5c02-4b82-845b-7e1e20de185a",
+    "name": "Kebab – Buttons - About us: When clicked, ‘About’ page displays correct title",
+    "commands": [{
+      "id": "ad4c9709-4096-4f19-bfdd-3946eb69b7e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f981619c-be24-4a0d-97a6-56f38cb2f311",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38c2328e-8443-4a5b-ac7a-92ffff49717e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "d6b61dd7-80f2-4e52-a8ed-02534554a9d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4106cd2c-dfb6-495a-845c-78baf9bd3f36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "717f5da1-80e2-4138-87c1-c6c899b04647",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "ABOUT US"
+    }, {
+      "id": "fc191ae7-6eb9-4fe5-8621-0e3bca26fa05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(3) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f817683b-3aa2-44ea-8158-022cfc5a2da1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Creating a New Way Forward",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8b6778d-c851-43e8-91ad-d3639c2e303b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7e4262d2-636b-488c-aa39-b9223390c30f",
+    "name": "Kebab – Buttons - News: When clicked, ‘News’ page displays correct title",
+    "commands": [{
+      "id": "ea1e7a0a-5ea1-4878-a75a-43b2ad23a812",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "016f6421-4efd-44af-8dca-cacd3ae8639c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef594434-572b-4a4b-8db4-54c3028f5d67",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "3a4009b5-e35e-43bf-a096-ec606e326b9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5bbb66-b6ee-4869-b225-c79b53fbba7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "160f6a88-6eb8-43fa-a9b5-1a460db3fc35",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "NEWS"
+    }, {
+      "id": "2b236f31-dbe8-46e7-be14-11173db169b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(4) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(3) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'About Us')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c909ca89-ac52-44fb-8eef-144edace573b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | News",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f11f681a-7860-4962-8202-7bb38790926e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7c4319f8-2daf-477a-af68-8173ef95ac55",
+    "name": "Kebab – Buttons - Careers: When clicked, ‘Jobs’ page displays correct title",
+    "commands": [{
+      "id": "be392bd3-1f38-4e94-a6b0-bbcadfe1ac76",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d84e4b9e-190b-48c2-8307-f547a802c2c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05e2cdc7-e5e5-4ef5-9b44-e4d001e5d096",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "d77596c8-fc20-4169-8e9e-80556f92aabd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "432e4ec3-bb97-4635-92e6-2169f09bfa98",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ffc3948-3d87-47d8-af22-4026bb0ce82c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "CAREERS"
+    }, {
+      "id": "cbf43b5c-a68d-4c14-8bad-35d10313c57f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(5) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(4) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/news')])[2]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23367214-2587-485a-ac41-db1e3087b5b0",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Jobs",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cc373b65-aff6-469d-9e8c-7d67c2f494e0",
+    "name": "Kebab – Buttons - Blog: When clicked, ‘Post’ page displays correct title",
+    "commands": [{
+      "id": "3d289b10-b8d2-41a8-ace9-c82442fe6f7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5ec6ae4-90c9-4733-91e9-9bf8bde326d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "728240ae-86c6-4397-8c64-710fbaf90221",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "3b22d00e-1828-44fe-a251-f33f37fe09bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f54e07ca-c525-4df7-aa69-57127513d1f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728a6bec-7142-4bea-b260-f6bdd0786e79",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(2) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cancer and Stress')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/why')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "BLOG"
+    }, {
+      "id": "8434e49b-147c-45fa-992e-d1938852c976",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pv1:nth-child(6) > .pa3",
+      "targets": [
+        ["css=.pv1:nth-child(5) > .pa3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Careers')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/jobs')])[2]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0cb957a-258a-432c-a524-3a73a0688572",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Blue Note Therapeutics | Posts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3caeabd2-3fea-4678-81e8-848c3c09f499",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "488413fe-6352-4484-9a70-94743efc501f",
+    "name": "Kebab – Closing ‘x‘: When clicked, ‘Main’ page displays correct title? ",
+    "commands": [{
+      "id": "f24de327-c14a-41f9-88fe-8e9f86ae7878",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d949bc7-1c34-4ea2-97c2-dce6a79698ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x789",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d22e268-132c-4a20-9ab4-ba75e8842cb9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "17a61a40-cd79-42f1-95ad-2ad773684ced",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=☰",
+      "targets": [
+        ["linkText=☰", "linkText"],
+        ["css=#nav-r > .white", "css:finder"],
+        ["xpath=//a[contains(text(),'☰')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:toggleMenu();']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-r']/a", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88e0918-9ed7-4604-9041-9d811dc303ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c9e529-a889-4028-a4a1-9983b639ab40",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": "×"
+    }, {
+      "id": "74a0691e-c0f2-4fc7-89bc-dad54548dd6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.bg-black", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=(//a[@onclick='javascript:toggleMenu();'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-menu']/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13759c95-488a-4dec-a738-1a41a07f7cdf",
+      "comment": "",
+      "command": "//Should verify which page should display",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29caea75-c6d4-4245-bc57-f06920da9443",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "16152132-14f5-4866-a538-f0c607550975",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "04f0934b-bdf7-428c-a0d4-9c6acf54e3f4",
+    "name": "Test Suite: From the svg image, verify Buttons links and Page titles ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3bfa21ce-6ae9-4bff-a935-14dcbbb18cc1", "b22c88a4-ad43-44e6-9cc0-14d6b32ae1a7", "2f6fd15b-76a4-4749-a84e-bb08de9f64ea", "a524ddbe-45ad-4e45-a265-be0630f9b923", "0c1bffbd-7e27-48f7-bbb2-b5d8432544dd", "faf6eae5-e72d-46c1-b123-a80c2fba3fe8"]
+  }, {
+    "id": "d1648203-8b59-4207-a0f6-9217e59dc8cb",
+    "name": "Test Suite: From the kebab icon, verify Buttons links and Page titles ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cdf2ae52-496c-4c51-b5e8-00a54b34a39f", "b0f039e1-5c02-4b82-845b-7e1e20de185a", "cc373b65-aff6-469d-9e8c-7d67c2f494e0", "100b6386-dd4c-452c-bc5c-de36629fc8c3", "7c4319f8-2daf-477a-af68-8173ef95ac55", "7e4262d2-636b-488c-aa39-b9223390c30f", "488413fe-6352-4484-9a70-94743efc501f"]
+  }],
+  "urls": ["https://bluenotetherapeutics.com/"],
+  "plugins": []
+}
