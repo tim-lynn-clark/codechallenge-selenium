@@ -18,7 +18,9 @@ Simply do your best to complete as many of the requirements as possible within t
 
 ## Project Description
 
-For this code challenge, you will be using one of the most common QA tools in existence, Selenium. The goal for this challenge is to create a website test suite that is as complete as possible in the time allotted, you should shoot for 100% feature coverage in your test suite.
+For this code challenge, you will be using one of the most common QA tools in existence, Selenium. The goal for this challenge is to create an automated website test suite that is as complete as possible in the time allotted, you should shoot for 100% feature coverage in your test suite. 
+
+Hopefully, you noticed the keyword `automated` above. Just as important as creating a complete test suite, `test automation` is key to successfully completing this challenge. For QA to as efficient and as effective as possible, test suites of all types must be as automated as possible. For this challenge, if the time allotted will constrain your focus to either a complete test suite or demonstrating your ability to automate your suite, please prioritize the later.
 
 ## Instructions
 
