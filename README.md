@@ -18,7 +18,7 @@ Simply do your best to complete as many of the requirements as possible within t
 
 ## Project Description
 
-For this code challenge, you will be using one of the most common QA tools in existence, the Selenium IDE. The goal for this challenge is to create a website test suite that is as complete as possible in the time allotted, your should shoot for 100% feature coverage in your test suite.
+For this code challenge, you will be using one of the most common QA tools in existence, Selenium. The goal for this challenge is to create a website test suite that is as complete as possible in the time allotted, you should shoot for 100% feature coverage in your test suite.
 
 ## Instructions
 
@@ -33,19 +33,22 @@ We will keep this quite simple.
 
 _Note:_ You will be required to provide the repo URL to your fork of the code challenge. It is expected to be under your personal GitHub.com account. please make sure the repo is publicly accessible. Keep in mind, we want to see how you develop, this includes how you use Git in your development process.
 
-#### Selenium IDE:
+#### Selenium:
 
-For this challenge you will be using the Selenium IDE to test the UI of a website
+For this challenge you will be using the Selenium WebDriver to automate the testing of a website. 
 
-- [ ] Install either Chrome or Firefox Developer Edition
-- [ ] Install the Selenium IDE browser extension
+- [ ] See [Selenium WebDriver documentation](https://www.selenium.dev/documentation/webdriver/)
+- [ ] Install and setup Selenium WebDriver
 
 ## Requirements
 
 _Where the fun really beings_
 
-- [ ] Create a new Selenium project
+- [ ] Using a Selenium supported programming language of your choice (C#, Java, `JavaScript (preferred)`, Ruby, Python, or PHP), create the testing project
 - [ ] Set the project root URL to https://bluenotetherapeutics.com/
+- [ ] Build a scaffold for your test suite
+- [ ] Define your test protocols
 - [ ] Using your knowledge of how to test a website and its features, build a test suite that fully tests the Blue Note Therapeutics website and its associated features
 - [ ] Save and commit your test suite frequently so as not to lose your work
 - [ ] Once complete, verify you have committed all changes to your test suite to the repo
+- [ ] Setup your code review interview
