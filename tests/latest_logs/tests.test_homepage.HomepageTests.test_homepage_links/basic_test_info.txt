@@ -1,0 +1,33 @@
+test_homepage.py::HomepageTests::test_homepage_links
+--------------------------------------------------------------------
+Last Page: https://bluenotetherapeutics.com/
+  Browser: chrome (98.0.4758.102)
+   Driver: chromedriver (98.0.4758.80)
+Timestamp: 1644960171  (Unix Timestamp)
+     Date: Tuesday, February 15, 2022
+     Time: 1:22:51 PM  (PDT, UTC-08:00)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/Users/appletest/PycharmProjects/blue_UI_tests/tests/test_homepage.py", line 17, in test_homepage_links
+    self.homepage_latestnews()
+  File "/Users/appletest/PycharmProjects/blue_UI_tests/base_case_flows/base_homepage_flow.py", line 26, in homepage_latestnews
+    self.click_more_news()
+  File "/Users/appletest/PycharmProjects/blue_UI_tests/page_functions/homepage.py", line 42, in click_more_news
+    self.assert_equal(get_news_url, NEWS_URL1)
+  File "/Users/appletest/PycharmProjects/blue_UI_tests/venv/lib/python3.8/site-packages/seleniumbase/fixtures/base_case.py", line 5174, in assert_equal
+    self.assertEqual(first, second, msg=msg)
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+Exception: 'https://bluenotetherapeutics.com/' != 'https://bluenotetherapeutics.com/news/'
+- https://bluenotetherapeutics.com/
++ https://bluenotetherapeutics.com/news/
+?                                  +++++

@@ -1,0 +1,16 @@
+test_homepage.py::HomepageTests::test_navigation_links
+--------------------------------------------------------------------
+Last Page: data:,
+  Browser: chrome (98.0.4758.102)
+   Driver: chromedriver (98.0.4758.80)
+Timestamp: 1644960174  (Unix Timestamp)
+     Date: Tuesday, February 15, 2022
+     Time: 1:22:54 PM  (PDT, UTC-08:00)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/Users/appletest/PycharmProjects/blue_UI_tests/tests/test_homepage.py", line 22, in test_navigation_links
+    self.contactus(contactinfo)
+Exception: 'HomepageTests' object has no attribute 'contactus'

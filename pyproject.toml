@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "blue_ui_tests"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "base_case_flows/*.py" },
+    { include = "locators/*.py" },
+    { include = "page_functions/*.py" },
+    { include = "data_json/*.py"},
+    { include = "utils/*.py" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+seleniumbase = "^2.4.13"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
