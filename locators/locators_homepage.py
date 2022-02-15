@@ -1,0 +1,40 @@
+"""
+List of locators that are found at homepage of the Bluenote website.
+"""
+HOMEPAGE_URL = 'https://bluenotetherapeutics.com/'
+BANNER = "//img[@alt='Blue Note Therapeutics']"
+HERO_HOME = "//div[@class='w-50-ns pl2-l']//img"
+HOMEPAGE_TITLE = 'Blue Note Therapeutics | Helping Cancer Patients Live Better'
+LEARNMORE_ABOUT_BUTTON = "//div[@class='w-50-ns ph2']//a"
+HEADER_CANCER_AND_STRESS = "//*[@id='nav-p']/div[1]/a"
+HEADER_ABOUT_US = "//*[@id='nav-p']/div[2]/a"
+HEADER_NEWS = "//*[@id='nav-p']/div[3]/a"
+HEADER_CLINICAL_TRIALS = "//*[@id='nav-p']/div[4]/a"
+HEADER_CAREERS = "//*[@id='nav-p']/div[5]/a"
+HEADER_BLOG = "//*[@id='nav-p']/div[6]/a"
+MORE_NEWS = "//div[@class='mb2 ph3']//a"
+PREVIOUS_PAGE = "//nav[@class='cf pa3']//a"
+TRYIT_HERE = "//div[@class='w-30-l ph2-l']//a"
+LEARNMORE_CRD_BUTTON = "//div[@class='w-50-l ph2-l mt6-l']//a"
+FOOTER_HELP = "//div[@class='flex-ns justify-between']//a"
+FOOTER_EMAIL = "//p[@class='mt0']//a"
+CANCER_DISTRESS_TITLE = "//div[@class='w-50-l ph2-l mt6-l']//h2"
+COVID_CARE_PROGRAM_TITLE = "//div[@class='w-30-l ph2-l']//h2"
+LATEST_NEWS_TITLE = "//div[@class='mw7 center header-text-sm']//h2"
+NEWS_LATESTNEWS_TITLE = "//div[@class='flex-ns mhn2-l']//h1"
+CANCER_PATIENTS_TITLE = "//div[@class='mr5-l']//h1"
+LEARNMORE_WHY_BUTTON = "//div[@class='w-50-l ph2-l mt6-l']//a"
+CONTACT_US = "//div[@class='tc']//a[2]"
+PRIVATE_POLICY = "//div[@class='tc']//a[1]"
+CONTACT_US_FORM = "//div[@class='scrollme']//h2"
+CONTACT_US_REDIRECT = "https://bluenotetherapeutics.com/success"
+FIRST_NAME = "//div[@class='w-50-l pr2-l']//fieldset"
+LAST_NAME = "//div[@class='w-50-l']//fieldset"
+EMAIL = "//div[@class='w-100-l']//fieldset[1]"
+MESSAGE = "//div[@class='mb4']//form//fieldset[1]"
+SUBMIT = "//div[@class='tc']//button"
+PRIVATE_POLICY_REDIRECT = 'https://bluenotetherapeutics.com/privacy/'
+
+
+def header_button(button=1):
+    return f"(//div[@id='nav-p']//a)[{button}]"
